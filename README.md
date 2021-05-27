@@ -6,6 +6,8 @@ Hiverize.org stellt eine Anleitung für eine mögliche Waage zur Verfügung.
 Diese ist zu finden unter:
 https://hiverize.org/eine-stockwaage-bauen/
 
+![Waage](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Waage.jpg)
+
 ## Variante 1: LoRa - Nodes
 
 ### Verwendete Sensoren:
