@@ -23,6 +23,15 @@ Für die Gewichtsmessung und eine zusätzliche Temperaturmessung wird der LSN50 
 * Bosche H40a 
 * Rahmenmaterial für die Waage
 
+#### Anpassung des Source-Codes
+Zu Beachten ist, dass füpr eine erfolgreiche Gewichtsmessung der ursprüngliche Code des LSN50 v2 angepasst werden muss.
+Die Gewichtsmessung ist dort auf 5 kg beschränkt.
+
+Der veränderte Source-Code wird in diesem Repository zur Verfügung gestellt (EU868.hex).
+Das Dragino-Wiki erläutert, wie der LSN50 v2 mit neuer Firmware bespielt werden kann:
+https://wiki.dragino.com/index.php?title=Firmware_Upgrade_Trouble_Shooting
+
+
 
 #### Bedienungsanleitung:
 https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_UserManual_v1.7.3.pdf
