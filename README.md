@@ -21,16 +21,41 @@ Für die Gewichtsmessung und eine zusätzliche Temperaturmessung wird der LSN50 
 * LSN50 v2
 * HX711
 * Bosche H40a 
+* DS18B20 Temperaturfühler
 * Rahmenmaterial für die Waage
+* wasserdichte Kabeldurchführung
 
 #### Anpassung des Source-Codes
 Zu Beachten ist, dass füpr eine erfolgreiche Gewichtsmessung der ursprüngliche Code des LSN50 v2 angepasst werden muss.
 Die Gewichtsmessung ist dort auf 5 kg beschränkt.
 
+![weight.c Code](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/weight_code.png)
+
 Der veränderte Source-Code wird in diesem Repository zur Verfügung gestellt (EU868.hex).
 Das Dragino-Wiki erläutert, wie der LSN50 v2 mit neuer Firmware bespielt werden kann:
 https://wiki.dragino.com/index.php?title=Firmware_Upgrade_Trouble_Shooting
 
+#### Pin-Belegung
+LSN50 v2 | HX711      
+---------|------------
++5 V|VCC
+GND|GND
+PA11|SCK
+PB12|DT
+
+LSN50 v2 | DS18B20
+---------|---------
+VCC      | VCC
+GND      | GND
+PB3      | DT
+
+![HX711-Pinout](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Load_Cell_Pinout.png)
+<br>Bildquelle: https://circuits4you.com/2016/11/25/hx711-arduino-load-cell/
+
+#### Positionierung der Sensoren
+Der Dragino LHT65-Sensor wurde in diesem Beispiel auf den Rähmchen des Honigraums platziert.<br>
+Zu beachten ist, dass aufgrund der Dicke des Sensors eine leere Zarge aufgesetzt wurde.<br><br>
+![LHT65 Platzierung](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/LHT65.jpg)
 
 
 #### Bedienungsanleitung:
