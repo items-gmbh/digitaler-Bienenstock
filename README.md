@@ -17,6 +17,9 @@ https://hiverize.org/eine-stockwaage-bauen/
 
 ### Dragino LSN50 v2:
 Für die Gewichtsmessung und eine zusätzliche Temperaturmessung wird der LSN50 v2 verwendet.
+#### Bedienungsanleitung:
+https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_UserManual_v1.7.3.pdf
+
 #### Benötigtes Material:
 * LSN50 v2
 * HX711
@@ -36,6 +39,9 @@ Das Dragino-Wiki erläutert, wie der LSN50 v2 mit neuer Firmware bespielt werden
 https://wiki.dragino.com/index.php?title=Firmware_Upgrade_Trouble_Shooting
 
 #### Pin-Belegung
+In diesem Projekt wird der Modus 5 des LSN50v2 benötigt.<br>
+Dieser Modus ermöglicht eine Gewichtsmessung und zusätzlich noch eine Temperaturmessung.<br>
+Die Pin-Belegung für den LSN50 v2 und den verwendeten Sensoren ist in den folgenden zwei Tabellen abgebildet.<br>
 LSN50 v2 | HX711      
 ---------|------------
 +5 V|VCC
@@ -49,17 +55,19 @@ VCC      | VCC
 GND      | GND
 PB3      | DT
 
+Die nächste Abbildung zeigt, wie die Wägezelle an dem HX711 angeschlossen werden muss.
+
 ![HX711-Pinout](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Load_Cell_Pinout.png)
-<br>Bildquelle: https://circuits4you.com/2016/11/25/hx711-arduino-load-cell/
+<br>Bildquelle: https://circuits4you.com/2016/11/25/hx711-arduino-load-cell/ <br>
+
+Zu beachten ist, dass in diesem Projekt ein HX711 von Sparkfun getestet wurde.
+Dieser ADC hat in diesem Aufbau nicht funktioniert. Aus diesem Grund wurde auf eine billigere Version gewechselt.
+Mit der günstigeren Variante gab es keine weiteren Probleme mehr.
 
 #### Positionierung der Sensoren
 Der Dragino LHT65-Sensor wurde in diesem Beispiel auf den Rähmchen des Honigraums platziert.<br>
 Zu beachten ist, dass aufgrund der Dicke des Sensors eine leere Zarge aufgesetzt wurde.<br><br>
 ![LHT65 Platzierung](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/LHT65.jpg)
-
-
-#### Bedienungsanleitung:
-https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_UserManual_v1.7.3.pdf
 
 ## Variante 2: Selbstbau - Variante
 Die Selbstbau-Variante basiert auf dem Heltec CubeCell.<br>
@@ -72,6 +80,7 @@ In diesem Projekt ist auch eine Excel-Datei beigefügt, die für die Kalibrierun
 Außerdem werden dort die wesentlichen Verkabelungen für das Heltec CubeCell aufgeführt.
 
 ### Materialliste
+Die folgende Tabelle listet die Materialien, die in diesem Projekt verwendet wurden.
 
 Produkt         | Anzahl
 ----------------|-------
