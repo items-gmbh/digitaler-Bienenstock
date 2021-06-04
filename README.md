@@ -32,7 +32,7 @@ Die Gewichtsmessung ist dort auf 5 kg beschränkt.
 ![weight.c Code](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/weight_code.png)
 
 Der veränderte Source-Code wird in diesem Repository zur Verfügung gestellt (EU868.hex).
-Das Dragino-Wiki erläutert, wie der LSN50 v2 mit neuer Firmware bespielt werden kann:
+Das Dragino-Wiki erläutert, wie der LSN50 v2 mit neuer Firmware bespielt werden kann: <br>
 https://wiki.dragino.com/index.php?title=Firmware_Upgrade_Trouble_Shooting
 
 #### Pin-Belegung
@@ -64,6 +64,13 @@ https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_
 ## Variante 2: Selbstbau - Variante
 Die Selbstbau-Variante basiert auf dem Heltec CubeCell.<br>
 Dieses Entwicklerboard unterstützt LoRaWAN und hat zusätzlich noch eine Solar-Management-System eingebaut. <br>
+### Software
+Die Software für diese Variante des digitalen Bienenstöcks basiert auf dem GitHub Projekt von Jörg Keller: <br>
+https://github.com/joergkeller/beehive-sensor <br><br>
+
+In diesem Projekt ist auch eine Excel-Datei beigefügt, die für die Kalibrierung der Waage notwendig ist.
+Außerdem werden dort die wesentlichen Verkabelungen für das Heltec CubeCell aufgeführt.
+
 ### Materialliste
 
 Produkt         | Anzahl
