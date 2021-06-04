@@ -3,6 +3,9 @@ Dieses Github-Repository erklärt den Aufbau von zwei verschiedenen digitalen Bi
 Zu diesem Projekt gibt es folgenden Blogbeitrag der items Gmbh zum nachlesen:<br>
 https://itemsnet.de/itemsblogging/der-digitale-bienenstock/ <br>
 
+[Waagenbau](#waagenbau)<br>
+[Variante 1: LoRa - Nodes](#variante-1-lora---nodes)
+
 ## Waagenbau
 Beide Varianten benötigen eine Waage, mit der die Gewichtsmessung des Bienenstocks durchgeführt wird.
 Hiverize.org stellt eine Anleitung für eine mögliche Waage zur Verfügung.
