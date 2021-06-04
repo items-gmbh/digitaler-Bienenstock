@@ -1,4 +1,7 @@
-# Der digitale Bienenstock mit LoRaWAN - zwei Bauvarianten
+# Der digitale Bienenstock mit LoRaWAN - zwei Bauvarianten <br><br> ![Logo items GmbH](https://itemsnet.de/wp-content/uploads/2019/11/itemsLogo.png)
+Dieses Github-Repository erklärt den Aufbau von zwei verschiedenen digitalen Bienenstocken auf der Basis von LoRaWAN.<br>
+Zu diesem Projekt gibt es folgenden Blogbeitrag der items Gmbh zum nachlesen:<br>
+https://itemsnet.de/itemsblogging/der-digitale-bienenstock/ <br>
 
 ## Waagenbau
 Beide Varianten benötigen eine Waage, mit der die Gewichtsmessung des Bienenstocks durchgeführt wird.
