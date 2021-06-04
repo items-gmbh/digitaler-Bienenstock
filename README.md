@@ -3,8 +3,20 @@ Dieses Github-Repository erklärt den Aufbau von zwei verschiedenen digitalen Bi
 Zu diesem Projekt gibt es folgenden Blogbeitrag der items Gmbh zum nachlesen:<br>
 https://itemsnet.de/itemsblogging/der-digitale-bienenstock/ <br>
 
-[Waagenbau](#waagenbau)<br>
-[Variante 1: LoRa - Nodes](#variante-1-lora---nodes)
+- [Waagenbau](#waagenbau)<br>
+- [Variante 1: LoRa - Nodes](#variante-1-lora---nodes)<br>
+  - [Verwendete Sensoren](#verwendete-sensoren)<br>
+  - [Dragino LSN50 v2](#dragino-lsn50-v2)<br>
+  - [Bedienungsanleitung Dragino LSN50 v2](#bedienungsanleitung)<br>
+  - [Benötigtest Material](#benötigtes-material)<br>
+  - [Anpassung des Source-Codes](#anpassung-des-source-codes)<br>
+  - [Pin-Belegung](#pin-belegung)<br>
+  - [Positionierung der Sensoren](#positionierung-der-sensoren)<br>
+- [Variante 2: Selbstbau - Variante](#variante-2-selbstbau---variante)
+  - [Software](#software)<br>
+  - [Materialliste](#materialliste)<br>
+  - [Aufbau der Sensoren](#aufbau-der-sensoren)<br>
+  - [Platzierung der Sensoren](#platzierung-der-sensoren)<br> 
 
 ## Waagenbau
 Beide Varianten benötigen eine Waage, mit der die Gewichtsmessung des Bienenstocks durchgeführt wird.
