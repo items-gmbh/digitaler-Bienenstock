@@ -62,6 +62,8 @@ Zu beachten ist, dass aufgrund der Dicke des Sensors eine leere Zarge aufgesetzt
 https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_UserManual_v1.7.3.pdf
 
 ## Variante 2: Selbstbau - Variante
+Die Selbstbau-Variante basiert auf dem Heltec CubeCell.<br>
+Dieses Entwicklerboard unterstützt LoRaWAN und hat zusätzlich noch eine Solar-Management-System eingebaut. <br>
 ### Materialliste
 
 Produkt         | Anzahl
@@ -85,4 +87,26 @@ Steckplatine | 1
 LED | 1
 Drahtbrücken |
 Lötzinn|
-Widerstasnd 4,7 kΩ | 1
+Widerstand 4,7 kΩ | 1
+Widerstand 10 kΩ | 1
+
+### Aufbau der Sensoren
+Der Aufbau der Sensoren stammt aus einer Anleitung von Hiverize.org: <br>
+https://hiverize.org/einbautemperatursensor/ <br>
+Zusätzlich zu den Temperatursensoren wurde am Ende des Flachbandkabels noch der DHT22/AM2302 Temperatur- und Luftfeuchtigkeitssensor angebracht.<br><br>
+
+![Temperatursensoren](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Eigenbau3.jpg)<br>
+
+
+### Platzierung der Sensoren
+Im folgenden Bild ist erkenntlich, wie die Temperatursensoren in dem Bienenstock platziert wurden.<br>
+
+![Platzierung der Sensoren](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Eigenbau1.jpg) <br>
+
+Das folgende Bild zeigt die Verkabelung am Heltec CubeCell. <br>
+Das Steckboard im rechten, oberen Eck stellt das Flachbandkabel mit den Temperatursensoren dar. <br><br>
+
+![Fritzing](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Fritzing.png) <br>
+
+Bei Fragen gerne eine Mail an: <br>
+l.weber@itemsnet.de
