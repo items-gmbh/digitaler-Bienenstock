@@ -89,7 +89,8 @@ Zu beachten ist, dass aufgrund der Dicke des Sensors eine leere Zarge aufgesetzt
 
 ## Variante 2: Selbstbau - Variante
 Die Selbstbau-Variante basiert auf dem Heltec CubeCell.<br>
-Dieses Entwicklerboard unterstützt LoRaWAN und hat zusätzlich noch eine Solar-Management-System eingebaut. <br>
+Dieses Entwicklerboard unterstützt LoRaWAN und hat zusätzlich noch eine Solar-Management-System eingebaut. <br><br>
+![Selbstbau-Variante](https://github.com/items-gmbh/digitaler-Bienenstock/blob/main/Abbildungen/Eigenbau4.png)<br>
 ### Software
 Die Software für diese Variante des digitalen Bienenstöcks basiert auf dem GitHub Projekt von Jörg Keller: <br>
 https://github.com/joergkeller/beehive-sensor <br><br>
