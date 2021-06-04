@@ -41,7 +41,7 @@ https://www.dragino.com/downloads/downloads/LSN50-LoRaST/LSN50_LoRa_Sensor_Node_
 #### Benötigtes Material:
 * LSN50 v2
 * HX711
-* Bosche H40a 
+* Bosche H40a Wägezelle
 * DS18B20 Temperaturfühler
 * Rahmenmaterial für die Waage
 * wasserdichte Kabeldurchführung
